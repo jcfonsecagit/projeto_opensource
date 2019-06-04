@@ -1,6 +1,8 @@
 from random import randint
 
-def meu numero(num):
-    meuNumero = randint(range(num))
+def meuNumero(num):
+    meuNumero = randint(0, num)
     print(meuNumero)
 
+
+meuNumero(100)
